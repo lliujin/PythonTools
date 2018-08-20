@@ -8,4 +8,3 @@ list1 = my_list[::2]
 print(list1)
 
 
-
