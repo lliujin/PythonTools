@@ -8,6 +8,7 @@ def normalize(l1):
 
 l1 = ['dff', 'HkEEf', 'dfjOFF']
 print(list(map(normalize, l1)))
+copyright()
 
 
 # practice: product with reduce（）
