@@ -16,7 +16,7 @@ def primes():
     while True:
         n = next(it)
         yield n
-        it = filter(not_divisible, it)
+        it = filter(not_divisible(n), it)
 
 
 for n in primes():
